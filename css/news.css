@@ -20,3 +20,7 @@
 .worldPictures{
     padding: 30pt;
 }
+
+#mainText{
+    text-align: justify;
+}

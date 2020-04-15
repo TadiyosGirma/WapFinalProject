@@ -1,4 +1,4 @@
-<!--https://github.com/TadiyosGirma/WapFinalProject.git-->
+<!-- the URL for this project is https://github.com/TadiyosGirma/WapFinalProject.git-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +21,7 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body> 
+<body>
     <header>
         <ul class="nav nav-pills nav-fill bg-dark">
 
@@ -52,48 +52,15 @@
     </header>
 
     <main>
-
-        <!-- <div class="container"> -->
-        <!-- this is the Carousel that displays diffrent images -->
+        <!-- this is the Carousel that displays diffrent images in slide-->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner active">
-                <div class="carousel-item active " data-interval="300">
-                    <img src="./images/dallol.jpg" class="d-block w-100" alt="picture of Dalol in Ethiopia">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Dallol - Ethiopia</h5>
-                        <p>Dallol currently holds the official record for record high average temperature for an
-                            inhabited location on Earth , and an average annual temperature of 35°C (95°F) was
-                            recorded
-                            between 1960 and 1966.</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-interval="300">
-                    <img src="./images/jesus-brazil.jpg" class="d-block w-100"
-                        alt="The picture of jesu's statue in brazil">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Statue of Jesus - Brazil</h5>
-                        <p>Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil,
-                            created
-                            by French sculptor Paul Landowski and built by Brazilian engineer Heitor da Silva Costa,
-                            in
-                            collaboration with French engineer Albert Caquot</p>
-                    </div>
-                </div>
-                <div class="carousel-item" data-interval="300">
-                    <img src="./images/venice-italy.jpg" class="d-block w-100" alt="picture of Venice in Italy">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Venice - Italy</h5>
-                        <p>Venice, the capital of northern Italy’s Veneto region, is built on more than 100 small
-                            islands in a lagoon in the Adriatic Sea. It has no roads, just canals – including the
-                            Grand
-                            Canal thoroughfare – lined with Renaissance and Gothic palaces.</p>
-                    </div>
-                </div>
+            <div id="carouselContainer" class="carousel-inner active">
+                <!-- the carousel itms will be inserted here using AJAX -->
             </div>
             <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -117,22 +84,10 @@
             </div>
         </div>
 
-        <!-- this is for the images to be displayed below the welcome sign -->
-        <figure class="figure">
-            <img src="./images/bottomImg1.jpg" class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption text-right">Today's pick 1</figcaption>
-        </figure>
-
-        <figure class="figure">
-            <img src="./images/bottomImg2.jpg" class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption text-right">Today's pick 1</figcaption>
-        </figure>
-
-        <figure class="figure">
-            <img src="./images/bottomImg3.jpg" class="figure-img img-fluid rounded" alt="...">
-            <figcaption class="figure-caption text-right">Today's pick 1</figcaption>
-        </figure>
-
+        <!-- this is for the images to be displayed below the welcome text -->
+        <div id="bottomImages">
+            <!-- the bottom images will be inserted here using AJAX-->
+        </div>
 
         <hr>
 
@@ -147,35 +102,7 @@
 
         <!-- this is for the customer feedbacks-->
         <div id="customerFeedback">
-            <div class="card" style="width: 18rem;">
-                <img src="./images/user1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="./images/user2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="./images/user3.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card's content.</p>
-                </div>
-            </div>
+            <!-- the user feedbacks will be inserted here using AJAX-->
         </div>
 
     </main>
@@ -190,7 +117,9 @@
             Developed with Visual Studio Code </div>
         <br><br>
     </footer>
-
+    <script src="./js/index.js"></script>
+    <script src="./js/indexBottomImages.js"></script>
+    <script src="./js/userReviews.js"></script>
 </body>
 
 </html>
