@@ -5,7 +5,7 @@
 })();
 
 function getCarouselItems() {
-    fetch("../vscode/carousel.json")
+    fetch("vscode/carousel.json")
         .then((response) => {
             if (response.ok) {
                 return response.json();
