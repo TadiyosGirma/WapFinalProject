@@ -5,9 +5,9 @@
 })();
 
 function getBottomImages() {
-    fetch("../vscode/indexBottomImages.json")
+    fetch("vscode/indexBottomImages.json")  
         .then((response) => {
-            if (response.ok) {
+            if (response.ok) { 
                 return response.json();
             } else {
                 return Promise.reject({
