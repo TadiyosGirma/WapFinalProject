@@ -19,7 +19,7 @@
 
 #newYork{
     width: 100%;
-    border-radius: 10pt;
+    /* border-radius: 10pt; */
 }
 
 #aboutUs{
@@ -30,10 +30,12 @@
 
 #card1{
     background-color: cadetblue;
+    padding: 50pt;
 }
 
 #card2{
     background-color: darkorange;
+    padding: 50pt;
 }
 
 .card-title{
