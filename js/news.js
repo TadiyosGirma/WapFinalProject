@@ -4,7 +4,7 @@
     getNews();
 })();
 
-function getNews() {
+function getNews() { 
     fetch("../vscode/news.json") 
         .then((response) => {
             if (response.ok) {
