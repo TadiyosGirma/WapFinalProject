@@ -1,6 +1,6 @@
 .nav-link{
     color: darkorange;
-    line-height: 11.5;    
+    line-height: 8;    
 }
 
 .bannerTxtBig{
@@ -8,7 +8,7 @@
     line-height: 3;
     vertical-align: bottom;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2em; 
 }
 
 .bannerTxtSmall{
