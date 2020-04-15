@@ -5,7 +5,7 @@
 })();
 
 function getUserReviews() {
-    fetch("../.vscode/userReviews.json")
+    fetch("../vscode/userReviews.json")
         .then((response) => {
             if (response.ok) {
                 return response.json();

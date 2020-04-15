@@ -5,7 +5,7 @@
 })();
 
 function getTourLocations() {
-    fetch("../.vscode/tourLocation.json") 
+    fetch("../vscode/tourLocation.json") 
         .then((response) => {
             if (response.ok) {
                 return response.json();
