@@ -31,11 +31,11 @@ function getTourLocations() {
                                 <h5 class="card-title">${tourLocations.name}</h5>
                                 <p class="card-text">${tourLocations.history}. . .</p>
                                 <p class="card-text"><small class="text-muted">Created ${tourLocations.createdDate}</small></p>
-                                <a href="#" class="btn btn-primary">Read more</a>
+                                <a href="../html/tourDisplay.html" class="btn btn-primary">Read more</a>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
 
                     ` //there is a backtick here
             });
